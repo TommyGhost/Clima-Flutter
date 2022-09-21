@@ -2,7 +2,7 @@ import 'package:clima_flutter_personal/services/location.dart';
 import 'package:clima_flutter_personal/services/networking.dart';
 
 const openWeatherMapURL = 'http://api.openweathermap.org/data/2.5/weather';
-const apiKey = 'ENTER-API-KEY';
+const apiKey = 'f71368aa33d48b5c72bd2454597a2f81';
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async {
